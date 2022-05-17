@@ -1,1 +1,52 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: black;
+  background-image: url("https://i.pinimg.com/originals/34/d5/e4/34d5e4f30fcb1ca6a17cd2e9c7bd7fa1.jpg");
+  background-repeat: repeat-x;
+}
+
+#uno {
+  font-size: 70px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+#dos {
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tres {
+  font-size: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.rojo {
+  background-color: white;
+
+  width: 200px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 600px;
+  border-radius: 25px;
+  color: red;
+}
+.negro {
+  background-color: white;
+
+  width: 200px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 600px;
+  border-radius: 25px;
+  color: black;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
